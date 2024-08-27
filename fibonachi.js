@@ -3,7 +3,7 @@ function generateFibonacci(num) {
     let fib2 = 1
     let currentFib = fib1 + fib2
     let res = []
-     while(fib1 < num) {
+    while(fib1 < num) {
         res.push(fib1)
         currentFib = fib1 + fib2
         fib1 = fib2 
@@ -11,5 +11,4 @@ function generateFibonacci(num) {
     } 
       return res
 }
-
 generateFibonacci(50)
